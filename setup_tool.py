@@ -14,7 +14,7 @@ def unzip_and_setup():
 
     subprocess.run([
         "sudo", "apt", "install", "-y", 
-        "python3-cryptography", "python3-ntplib", "python3-colorama"
+        "python3-cryptography", "toilet", "python3-ntplib", "python3-colorama"
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     print("Selesai")
