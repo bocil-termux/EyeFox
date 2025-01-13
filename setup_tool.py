@@ -14,8 +14,10 @@ def unzip_and_setup():
 
     subprocess.run([
         "sudo", "apt", "install", "-y", 
-        "python3-cryptography", "toilet", "python3-ntplib", "python3-colorama"
+        "python3-cryptography", "toilet", "toilet-fonts",  "python3-ntplib", "python3-colorama"
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+    subprocess.run(["unzip", "gf-pattern.zip", "-d", "~/.gf/"])
 
     print("Selesai")
 
