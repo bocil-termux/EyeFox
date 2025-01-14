@@ -1,13 +1,5 @@
 # EyeFox-Tools
-Tools Vulnerability Scanner 
-
-# Install 
-```
-git clone https://github.com/bocil-termux/EyeFox-Tools.git
-cd EyeFox-Tools
-chmod +x *.py
-python3 setup-tool.py
-```
+Masih dalam Proses Pembaruan 
 
 # Deskripsi 
 Tools ini baru dibuat dan masih dikembangkan
