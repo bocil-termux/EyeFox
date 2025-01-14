@@ -1,6 +1,14 @@
 # EyeFox-Tools
 Masih dalam Proses Pembaruan 
 
+# Install 
+```
+git clone https://github.com/bocil-termux/EyeFox-Tools.git
+cd EyeFox-Tools
+chmod +x install.sh
+./install.sh
+```
+
 # Deskripsi 
 Tools ini baru dibuat dan masih dikembangkan
 tools ini dikhususkan (gratis) untuk member BLACKLINEGROUP karena masih dalam pengembangan 
